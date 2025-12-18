@@ -1,0 +1,283 @@
+body{
+  width: 100%;
+  height: auto;
+  background-color: #fff8dc;
+}
+
+.container{
+  margin-top: 0;
+  background-color: #fff8dc;
+}
+.bg-img1{
+  position: relative;
+  top: 25px;
+  left: 1300px;
+  
+}
+
+.bg-img2{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 0px;
+  left: 500px;
+}
+
+.bg-img3{
+  position: relative;
+  left: 390px;
+}
+
+nav{
+  width: 100%;
+  height:100px;
+  background-color:#fff8dc;
+  display: flex;
+}
+
+.nav-1{
+  width: 50%;
+  height: 200px;
+  background-color: #fff8dc;
+}
+
+.logo{
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+
+.nav-2{
+  width: 50%;
+  height: 200px;
+  background-color: #fff8dc;
+  display: inline-block;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  margin: 70px 150px;
+  
+  }
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+li{
+  margin: 15px;
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(211, 34, 39);
+}
+
+.selezione-pizze{
+  width: 99%;
+  height: 300px;
+  background-color: #fff8dc;
+  position: relative;
+  top: 5px;
+  display: flex;
+}
+.container{
+  display: flex;
+}
+
+.pizza-1{
+  width: 200px;
+  height: 200px;
+  background-color: #fff8dc;
+  float: left;
+  margin: 0 100px;
+}
+
+.pizza-2{
+  width: 200px;
+  height: 200px;
+  background-color: #fff8dc;
+  float: left;
+  margin: 0 25px;
+  margin-bottom: 0;
+}
+
+.pizza-margherita{
+  width: 250px;
+  height:250px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.pizza-due{
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+  margin-left: 30px;
+}
+
+p{
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 7px;
+  
+}
+
+.prezzo{
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 23px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  top: 1px;
+}
+
+.cotto-carciofini{
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  margin-top: 14px;
+  margin-left: 45px;
+ 
+}
+
+span{
+  display: inline;
+}
+
+.pancetta-e-funghi{
+  width: 290px;
+  height:290px;
+  object-fit: contain;
+  position: relative;
+  left: 100px;
+  bottom: 30px;
+  cursor:pointer;
+}
+
+.panc-funghi{
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  margin: 0 170px;
+  bottom: -100px;
+  top: -23px;
+  cursor:pointer;
+  
+}
+
+.prezzo-panc-funghi{
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 23px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  top: -33px;
+}
+
+.pizza-salame{
+  width: 240px;
+  height:240px;
+  object-fit: contain;
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+}
+
+.salame-piccante{
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  top: 38px;
+  left: -15px;
+  
+}
+
+.prezzo-salame{
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 23px;
+  color: rgb(211, 34, 39);
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(211, 34, 39);
+  display: flex;
+  position: relative;
+  top:100px;
+  left: 2px;
+
+}
+
+.foot{
+  font-family:  "Quattrocento Sans", sans-serif;
+  font-size: 23px;
+  color: white;
+  text-align: right;
+  position: relative;
+  top: 2px;
+  left:17px;
+  
+}
+
+.social-icon-fb{
+  width: 53px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  position: relative;
+  left: 1200px;
+  top: 8px;
+}
+.social-icon-ig{
+  width: 52px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  position: relative;
+  left: 1201px;
+  top: 12px;
+}
+
+.social-icon-wa{
+  width: 43px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  position: relative;
+  top:11px;
+  left: 1203px;
+  margin-left: 9px;
+}
